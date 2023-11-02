@@ -280,7 +280,10 @@ header{
 
 }
 
-
+.header-container button{
+    margin-left: 20px;
+   
+}
 
 .about-container{
 display:grid ;
