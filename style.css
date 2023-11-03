@@ -36,7 +36,8 @@ h1,h2,h3,h4,h5{
 }
 h1{
    font-size: 40px;
-   padding: 20px;
+  
+  
 
 
 }
@@ -225,48 +226,7 @@ header{
 
 
 
-.circle a{
-    height: 4rem;
-    width: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: var(--color-white);
-    position: absolute;
-    border-radius: 50%;
-    color: var(--color-primary);
-    font-size: 20px;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
-    transition: var(--transition);
-}
 
-.circle a:hover{
-    background: var(--color-primary-variant);
-    color: var(--color-white);
-}
-
-
-
-.circle a:nth-child(1){
-    left: calc(50% - 2rem);
-    top: -2rem;
-
-}
-.circle a:nth-child(2){
-    top: calc(50% - 2rem);
-    right: -2rem;
-    
-}
-.circle a:nth-child(3){
-    top: calc(50% - 2rem);
-    left: -2rem;
-    
-}
-.circle a:nth-child(4){
-    left: calc(50% - 2rem);
-    bottom: -2rem;
-    
-}
 
 .hero-image{
    position: absolute;
@@ -274,12 +234,14 @@ header{
    width: 22rem; 
    padding: 2rem;
    overflow: hidden;
-   border-radius: 40%;
+   border-radius: 50%;
    box-shadow: #171c23;
    
 
 }
-
+.hero-image img{
+    border-radius: 50%;
+}
 .header-container button{
     margin-left: 20px;
    
@@ -316,11 +278,13 @@ background: var(--color-primary);
     color: var(--color-off-black);
     position: relative;
 }
+
 .skills-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     
     align-items: center;
+
 }
 .progress .info{
     display: flex;
@@ -347,11 +311,15 @@ background: var(--color-primary);
 .progress:nth-child(4) .inner-row{
     width: 70%;
 }
-#Portfolio{
+#Projects{
     background: var(--bg-variant);
 }
+#Projects h1{
+    bottom: 50px;
+    position: relative;
+}
 .portfolio-container{
-    padding-top: 20px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2%;
@@ -516,6 +484,7 @@ display: none !important;
  }
 }
 @media (max-width:600px) {
+   
     h1{
         font-size: 36px;
     }
@@ -525,7 +494,7 @@ display: none !important;
         margin-bottom: 2rem;
     }
     .btn{
-        padding: 10px 22px;
+        padding: 6px 20px;
     }
     h3{
         font-size: 26px;
@@ -536,10 +505,7 @@ display: none !important;
     h5{
         font-size: 18px;
     }
-    .circle{
-        height: 16rem;
-        width: 16rem;
-    }
+ 
     .circle a{
         height: 3rem;
         width: 3rem;
@@ -551,9 +517,26 @@ display: none !important;
     .hero-image{
 height: 12rem;
 width: 12rem;
+right: 0;
+
+    }
+    .hero-image img{
+        border-radius: 50%;
     }
     .portfolio-container{
         grid-template-columns: 1fr;
+        
     }
+ 
+    #Education {
+        text-align: center;
+        margin-top: 4rem; /* Add some margin to push the section down */
+    }
+    #Projects {
+        background: var(--color-white); /* Change the background color to the desired color */
+    }
+     
+      
 
 }
+
