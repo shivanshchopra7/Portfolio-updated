@@ -496,7 +496,7 @@ display: none !important;
     grid-template-columns: 1fr 1fr;
  }
 }
-@media (max-width:600px) {
+@media (max-width:500px) {
     .project img{
         margin-top: 0px;
     }
@@ -541,28 +541,21 @@ display: none !important;
     .nav-links{
         width: 18rem;
     }
-    .hero-image {
-        height: 12rem;
-        width: 12rem;
-        position: absolute;
-       top: 25%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+  
       .header-container {
        /* Make the container relative to position absolute elements inside */
         text-align: center; /* Center the text content */
         
         
         align-items: center;
-        margin-top: 140px;
+        margin-top: 60%;
       }
       
       .hero-image {
-        height: 12rem;
-        width: 12rem;
+        height: 23rem;
+        width: 18rem;
         
-        top: 20%;
+       top: 31%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
