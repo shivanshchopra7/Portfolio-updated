@@ -463,7 +463,7 @@ display: none !important;
 
  .header-container{
     grid-template-columns: 1fr;
-    margin-top: 2rem;
+    margin-top: 13rem;
  }
  .header-right{
     grid-row: 1;
@@ -495,6 +495,18 @@ display: none !important;
  .portfolio-container{
     grid-template-columns: 1fr 1fr;
  }
+ .hero-image {
+    height: 21rem;
+    width: 16rem;
+    
+   top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header-container h1{
+    text-align: center;
+
+  }
 }
 @media (max-width:500px) {
     .project img{
@@ -582,7 +594,7 @@ display: none !important;
     }
      
       .btn{
-        padding: 8px 6px;
+        padding: 8px 8px;
     
    
       }
