@@ -337,6 +337,7 @@ background: var(--color-primary);
     margin-top: 30px;
     object-fit: contain;
     
+    
 }
 .project-action{
     display: flex;
