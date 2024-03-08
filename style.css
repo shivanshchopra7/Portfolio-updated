@@ -308,8 +308,11 @@ background: var(--color-primary);
 .progress:nth-child(3) .inner-row{
     width: 50%;
 }
-.progress:nth-child(4) .inner-row{
+.progress:nth-child(5) .inner-row{
     width: 70%;
+}
+.progress:nth-child(4) .inner-row{
+    width: 50%;
 }
 #Projects{
     background: var(--bg-variant);
