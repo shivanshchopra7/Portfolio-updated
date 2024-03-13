@@ -547,6 +547,9 @@ display: none !important;
   }
 }
 @media (max-width:500px) {
+    .header-left p{
+        width: 100%;
+    }
     .project img{
         margin-top: 30px;
     }
@@ -627,9 +630,7 @@ display: none !important;
         text-align: center;
         margin-top: 7rem; /* Add some margin to push the section down */
     }
-    #Projects {
-        background: var(--color-white); /* Change the background color to the desired color */
-    }
+    
      
       .btn{
         padding: 8px 8px;
@@ -638,7 +639,11 @@ display: none !important;
       }
       .header-container h1{
         text-align: center;
+        margin-top: 30px;
     
+      }
+      .nav-container{
+        display: none;
       }
 
 }
