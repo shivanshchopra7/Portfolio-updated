@@ -397,7 +397,10 @@ span {
 padding: 10px 25px;
     margin-bottom: 1.5rem;
 }
-
+.btn{
+    background-color: white;
+    color: black;
+}
   
   .education {
     display: flex;
@@ -664,7 +667,7 @@ display: none !important;
       .header-container h1{
         text-align: center;
         margin-top: 30px;
-    padding: 20px;
+    padding: 15px;
       }
       .nav-container{
         display: none;
