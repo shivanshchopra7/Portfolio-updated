@@ -623,12 +623,20 @@ display: none !important;
     }
     .portfolio-container{
         grid-template-columns: 1fr;
+        padding-bottom: 30%;
         
     }
- 
+ footer .container {
+    margin-top: 5px;
+ }
+ footer p{
+    font-size: 20px;
+    margin-bottom: 5px;
+ }
     #Education {
         text-align: center;
         margin-top: 7rem; /* Add some margin to push the section down */
+        display: none;
     }
     
      
