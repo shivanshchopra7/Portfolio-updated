@@ -644,6 +644,7 @@ display: none !important;
       }
       .nav-container{
         display: none;
+        visibility: hidden;
       }
 
 }
