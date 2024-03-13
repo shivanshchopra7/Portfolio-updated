@@ -623,7 +623,7 @@ display: none !important;
     }
     .portfolio-container{
         grid-template-columns: 1fr;
-        padding-bottom: 50%;
+        padding-bottom: 80%;
         
     }
  footer .container {
